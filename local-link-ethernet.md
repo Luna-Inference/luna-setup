@@ -10,7 +10,11 @@ network:
       dhcp4: false
       addresses: [169.254.100.10/16]
 
-# 2. Apply the configuration:
+# 2. Remove conflicting NetworkManager connections:
+# nmcli connection show
+# sudo nmcli connection delete "Wired connection 1"
+
+# 3. Apply the configuration:
 # sudo netplan apply
 
 # How it works:
