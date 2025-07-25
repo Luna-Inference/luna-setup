@@ -46,3 +46,9 @@ sudo netplan apply
 - **Communication**: Both devices can communicate directly with each other
 - **Discovery**: The detection application scans the `169.254.0.0/16` range to find the Orange Pi
 - **Zero Configuration**: No manual IP configuration is required on the Windows side
+
+## To check and confirm subnet & other info
+
+```bash
+ip addr show enP4p65s0
+```
