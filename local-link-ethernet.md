@@ -18,7 +18,7 @@ network:
   ethernets:
     enP4p65s0:
       dhcp4: false
-      addresses: [169.254.100.10/16]
+      addresses: [169.254.100.10/24]
 ```
 
 ### 2. Remove Conflicting NetworkManager Connections
